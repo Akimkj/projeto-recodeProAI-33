@@ -2,14 +2,17 @@
 
 /*Configurações main*/
 main {
-    padding: 4em 4em 6em 4em;
+    padding: 3em 3em 5em 3em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 h1 {
     margin-bottom: 2rem;
 }
 
-main > p {
+main  p {
     margin-bottom: 2rem;
     text-align: left;
 }
