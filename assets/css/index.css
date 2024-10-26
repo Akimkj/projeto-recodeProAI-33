@@ -89,14 +89,15 @@ body {
 }
 
 .button {
-  font-size: 1.7rem;
+  width: 236px;
+  font-size: 1rem;
+  font-weight: 700;
   text-decoration: none;
   background-color: #238d69;
   color: #fff;
-  text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 4px;
   display: block;
-  margin: 20px 480px;
+  margin: 20px auto;
   text-align: center;
 }
