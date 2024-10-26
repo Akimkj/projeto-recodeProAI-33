@@ -37,6 +37,7 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 1fr;
   align-content: start;
 }
 
@@ -52,6 +53,10 @@ body {
 .title-secondary {
   font-weight: 700;
   font-size: 2rem;
+}
+
+.project .title-secondary{
+  padding-bottom: 40px;
 }
 
 .text {
