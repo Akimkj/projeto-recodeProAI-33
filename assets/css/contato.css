@@ -8,12 +8,8 @@ main {
     align-items: center;
 }
 
-h1 {
-    margin-bottom: 2rem;
-}
-
-main  p {
-    margin-bottom: 2rem;
+h1, main  p {
+    margin-bottom: 1.4rem;
     text-align: left;
 }
 
