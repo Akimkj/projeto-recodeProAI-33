@@ -56,6 +56,34 @@ header{
     color: white;
 }
 
+footer{
+    background-color: #0B1E2D;
+    margin-top: 60px;
+  }
+  
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    max-width: 1000px;
+    gap: 16px;
+    margin: 0 auto;
+    align-items: start;
+    padding: 60px 0px;
+  }
+  
+  .footer-container p{
+    font-size: 1rem;
+    color:#f7f7f7;
+    max-width: 1200px;
+  }
+  
+  .footer-container a{
+    text-decoration: none;
+    color: #f7f7f7;
+    font-weight: 700;
+  }
+
 
 @media screen and (max-width: 600px) {
     header {
