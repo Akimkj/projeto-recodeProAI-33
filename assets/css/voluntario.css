@@ -1,0 +1,70 @@
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.form-voluntario {
+  padding: 30px 5px;
+  max-width: 60vw;
+}
+section h2 {
+  padding: 15px 0;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+section p {
+  padding: 15px 0px;
+}
+
+fieldset {
+  border: none;
+}
+
+/*email e telefone*/
+fieldset:nth-child(2) {
+  display: flex;
+  padding-top: 10px;
+  gap: 10px;
+}
+.container input {
+  margin-right: 100px;
+  width: 100%;
+  height: 45px;
+  border: 2px solid #213830;
+  border-radius: 4px;
+  background-color: #e0fff5;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px;
+}
+.container input::placeholder {
+  color: #7a8a97;
+}
+
+.button-form {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  margin: 10px 0;
+  width: 236px;
+  background-color: #238d69;
+  height: 45px;
+  border: none;
+  border-radius: 4px;
+  color: #f7f7f7;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+button:hover {
+  opacity: 0.85;
+}

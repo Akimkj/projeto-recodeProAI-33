@@ -2,15 +2,17 @@
 
 /*Configurações main*/
 main {
-    padding: 4em 4em 6em 4em;
+    padding: 3em 3em 5em 3em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 h1 {
-    margin-bottom: 2rem;
+    font-size: 2em;
 }
-
-main > p {
-    margin-bottom: 2rem;
+h1, main  p {
+    margin-bottom: 1.4rem;
     text-align: left;
 }
 
@@ -34,12 +36,4 @@ main > p {
 
 #listaContatos > a > img {
     width: 35px;
-}
-
-/*Configurações footer*/
-footer {
-    background-color:  #0B1E2D;
-    color: white;
-    padding: 2em;
-    width: 100%;
 }
