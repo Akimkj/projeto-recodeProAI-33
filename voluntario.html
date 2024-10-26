@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +9,47 @@
   <link rel="stylesheet" href="./assets/css/voluntario.css">
   <title>Seja Voluntário</title>
 </head>
+
 <body>
   <header>
     <h2 id="tituloprincipal"><a href="index.html" rel="prev">AjudaRS</a></h2>
     <nav id="navBar">
-        <ul>
-          <li class="itensNavBar"><a href="voluntario.html" target="_self" rel="next">Seja voluntário</a></li>
-          <li class="itensNavBar"><a href="doacao.html" target="_self" rel="next">Faça Doação</a></li>
-          <li class="itensNavBar"><a href="contato.html" target="_self" rel="next">Contato</a></li>
-        </ul>
+      <ul>
+        <li class="itensNavBar"><a href="voluntario.html" target="_self" rel="next">Seja voluntário</a></li>
+        <li class="itensNavBar"><a href="doacao.html" target="_self" rel="next">Faça Doação</a></li>
+        <li class="itensNavBar"><a href="contato.html" target="_self" rel="next">Contato</a></li>
+      </ul>
     </nav>
   </header>
-  <main></main>
+
+  <main>
+    <section class="form-voluntario">
+      <h2>Seja Voluntário</h2>
+      <p>Faça seu cadastro para se tornar voluntário e ajude dezenas de pessoas.</p>
+      <form class="form-voluntario-form">
+        <fieldset>
+          <div class="container">
+            <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="container">
+            <input type="tel" id="tel" name="tel" placeholder="Seu Telefone" required>
+          </div>
+
+          <div class="container">
+            <input type="email" name="email" id="email" placeholder="Seu email" autocomplete="email" required>
+          </div>
+        </fieldset>
+
+        <div class="button-form">
+          <button>Cadastrar</button>
+        </div>
+      </form>
+    </section>
+  </main>
   <footer></footer>
 </body>
+
 </html>
