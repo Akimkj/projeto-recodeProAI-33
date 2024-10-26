@@ -24,6 +24,7 @@ section p {
 fieldset {
   border: none;
 }
+
 /*email e telefone*/
 fieldset:nth-child(2) {
   display: flex;
