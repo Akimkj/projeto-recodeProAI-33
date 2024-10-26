@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <!--fiquem a vontade para tirar/colocar palavras-chave-->
     <meta name="keywords" content="html, css, desenvolvimento, website, front-end, recodeProAI, recode, hackathon, enchentes, voluntários, web">
-    
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +12,45 @@
     <link rel="stylesheet" href="./assets/css/index.css">
     <title>Pagina Principal</title>
 </head>
+
 <body>
     <header>
-        <h2 id="tituloprincipal"><a href="index.html" rel="prev">AjudaRS</a></h2>
-        <nav id="navBar">
-            <ul>
-              <li class="itensNavBar"><a href="voluntario.html" target="_self" rel="next">Seja voluntário</a></li>
-              <li class="itensNavBar"><a href="doacao.html" target="_self" rel="next">Faça Doação</a></li>
-              <li class="itensNavBar"><a href="contato.html" target="_self" rel="next">Contato</a></li>
-            </ul>
-        </nav>
-      </header>
-    <main></main>
+        <section class="header-container">
+            <h2 id="tituloprincipal"><a href="index.html" rel="prev">AjudaRS</a></h2>
+            <nav id="navBar">
+                <ul>
+                    <li class="itensNavBar"><a href="voluntario.html" target="_self" rel="next">Seja voluntário</a></li>
+                    <li class="itensNavBar"><a href="doacao.html" target="_self" rel="next">Faça Doação</a></li>
+                    <li class="itensNavBar"><a href="contato.html" target="_self" rel="next">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="principal">
+            <picture>
+                <h1 class="title-primary">Ajude o Rio Grande do Sul</h1>
+                <img src="./assets/img/img-index 1.png" width="1000" alt="Imagem aérea da enchente">
+            </picture>
+        </section>
+        <section class="project">
+            <h2 class="title-secondary">Conheça o projeto</h2>
+            <p class="text">O AjudaRS é um projeto que visa ajudar as pessoas que foram afetadas pelas enchentes no Rio Grande do Sul. Através de doações e voluntários, queremos ajudar a reconstruir a vida dessas pessoas.</p>
+            <picture>
+                <img src="./assets/img/projeto-img 1.png" height="470" alt="Imagem de duas mãos se apertando">
+            </picture>
+        </section>
+        <section class="information">
+            <h2 class="title-secondary">Como ajudar</h2>
+            <p class="text">Você pode ajudar, enviando doações, se voluntariando, ou compartilhando o projeto, qualquer ajuda é bem vinda. </p>
+            <h2 class="title-secondary">Faça doações</h2>
+            <p class="text">Você pode fazer doações em dinheiro através de depósito bancário ou em produtos, que podem ser entregues em um dos nossos postos de coleta. <a href="./doacao.html">Clique aqui para saber mais.</a></p>
+            <h2 class="title-secondary">Precisa de ajuda?</h2>
+            <p class="text">Se você foi afetado pelas enchentes e precisa de ajuda, entre em <a class="link" href="./contato.html">contato conosco</a>. Estamos aqui para ajudar você a reconstruir a sua vida.</p>
+        </section>
+            <a href="seja-voluntario.html" class="button">Seja Voluntário</a>
+    </main>
     <footer></footer>
 </body>
+
 </html>
