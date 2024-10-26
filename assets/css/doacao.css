@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+section h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+section p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50vw;
+  height: 100px;
+}
+.map-Box {
+  position: relative;
+  width: 450px;
+  height: 340px;
+  margin-top: 20px;
+}
+.map-Box iframe {
+  width: 100%;
+  height: 100%;
+}
