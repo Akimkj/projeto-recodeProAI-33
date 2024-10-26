@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*Configurações main*/
+main {
+    padding: 4em 4em 6em 4em;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+main > p {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+#listaContatos {
+    list-style-position: inside;
+    list-style-image: url(../img/Ellipse\ 1.png);
+}
+
+#listaContatos > li {
+    padding-bottom: 0.8em;
+}
+
+#listaContatos > a {
+    padding-left: 1em;
+}
+
+#listaContatos > a > img:hover {
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 5px;
+}
+
+#listaContatos > a > img {
+    width: 35px;
+}
+
+/*Configurações footer*/
+footer {
+    background-color:  #0B1E2D;
+    color: white;
+    padding: 2em;
+    width: 100%;
+}
