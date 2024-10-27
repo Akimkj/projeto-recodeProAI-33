@@ -42,17 +42,25 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 1fr 1fr 1fr auto;
+  gap: 16px;
   align-content: start;
 }
 
 .project p {
-  grid-column: 1/2;
+  font-size: 1rem;
+  line-height: 1.2;
 }
 
 .project picture {
-  grid-row: 1/3;
+  grid-row: 1/5;
   grid-column: 2/3;
+  align-content: center;
+}
+
+.project picture img{
+  object-fit: cover;
+  margin: auto 0;
 }
 
 .title-secondary {
@@ -60,14 +68,10 @@ body {
   font-size: 2rem;
 }
 
-.project .title-secondary{
-  padding-bottom: 40px;
-}
 
 .text {
   font-size: 1.25rem;
   line-height: 1.2;
-  max-width: 40ch;
   align-items: center;
 }
 
