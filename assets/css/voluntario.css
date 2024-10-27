@@ -1,3 +1,5 @@
+@import url(style.css);
+
 main {
   flex: 1;
   display: flex;
@@ -95,4 +97,25 @@ button {
 }
 button:hover {
   opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+  .form-voluntario {
+    padding: 30px 5px;
+    max-width: 90vw;
+  }
+  .container input {
+    margin-right: 0;
+  }
+  fieldset:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .button-form {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
