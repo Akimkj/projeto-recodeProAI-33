@@ -40,10 +40,6 @@ header {
   transform: translateY(5px);
 }
 
-.itensNavBar {
-  margin-left: 1em;
-}
-
 .itensNavBar > a {
   text-decoration: none;
   color: black;
@@ -69,6 +65,7 @@ footer {
   align-items: start;
   padding: 60px 0px;
 }
+
 .footer-container p {
   font-size: 1rem;
   color: #f7f7f7;
@@ -81,6 +78,44 @@ footer {
   font-weight: 700;
 }
 
+@media (max-width: 600px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-container h2 {
+    text-align: center;
+  }
+  #navBar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .itensNavBar {
+    margin-top: 4px;
+    gap: 10px;
+    background-color: white;
+    padding: 4px 0;
+    border: 1px solid #7a8a97;
+    border-radius: 4px;
+  }
+  .itensNavBar > a {
+    display: block;
+    padding: 0.6em;
+  }
+  .itensNavBar > a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*
 @media screen and (max-width: 600px) {
   header {
     flex-flow: column nowrap;
