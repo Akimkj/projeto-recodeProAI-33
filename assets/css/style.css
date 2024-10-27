@@ -108,45 +108,41 @@ footer {
     background-color: black;
   }
 
-  footer{
+  footer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 
-
-
 /*
 @media screen and (max-width: 600px) {
-    header {
-        flex-flow: column nowrap;
-        align-items: center;
-        padding: 1em 0em 0.2em 0em;
-    }
-    #navBar {
-        width: 100%;
-    }
-    #navBar > ul {
-        flex-flow: column nowrap;
-        transform: translateY(0);
-        padding-top: 1em;
-    }
-    .itensNavBar {
-        margin-left: 0em;
-        background-color: white;
-        border: 1px solid #7a8a97;
-        
-    }
-    .itensNavBar > a {
-        display: block;
-        padding: 0.6em;
-    }
-    .itensNavBar > a:hover {
-        text-decoration: none;
-        color: white;
-        background-color: black;
-    }
+  header {
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 1em 0em 0.2em 0em;
+  }
+  #navBar {
+    width: 100%;
+  }
+  #navBar > ul {
+    flex-flow: column nowrap;
+    transform: translateY(0);
+    padding-top: 1em;
+  }
+  .itensNavBar {
+    margin-left: 0em;
+    background-color: white;
+    border: 1px solid #7a8a97;
+  }
+  .itensNavBar > a {
+    display: block;
+    padding: 0.6em;
+  }
+  .itensNavBar > a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+  }
 }
-
 /*Configurações Footer*/
