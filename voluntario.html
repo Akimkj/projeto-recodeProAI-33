@@ -7,21 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/voluntario.css">
+  <link rel="stylesheet" href="./assets/css/mobile.css">
   <title>Seja Voluntário</title>
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <section class="header-container">
       <h2 id="tituloprincipal"><a href="index.html" rel="prev">AjudaRS</a></h2>
       <nav id="navBar">
-          <ul>
-              <li class="itensNavBar"><a href="voluntario.html" target="_self" rel="next">Seja voluntário</a></li>
-              <li class="itensNavBar"><a href="doacao.html" target="_self" rel="next">Faça Doação</a></li>
-              <li class="itensNavBar"><a href="contato.html" target="_self" rel="next">Contato</a></li>
-          </ul>
+        <ul>
+          <li class="itensNavBar"><a href="voluntario.html" target="_self" rel="next">Seja voluntário</a></li>
+          <li class="itensNavBar"><a href="doacao.html" target="_self" rel="next">Faça Doação</a></li>
+          <li class="itensNavBar"><a href="contato.html" target="_self" rel="next">Contato</a></li>
+        </ul>
       </nav>
-  </section>
+    </section>
   </header>
 
   <main>
@@ -45,6 +46,55 @@
           </div>
         </fieldset>
 
+        <!-- Bairro de atuação -->
+        <fieldset>
+          <legend>Informações adicionais</legend>
+          <div class="checkbox" id="chkbox">
+            <form>
+              <div class="zona">
+                <label for="zona">Escolha a Zona que você deseja se voluntariar:</label>
+                <select id="zona" name="zona" onchange="mostrarBairros()">
+                  <option value="">Selecione uma Zona</option>
+                  <option value="central">Zona Central</option>
+                  <option value="norte">Zona Norte</option>
+                  <option value="sul">Zona Sul</option>
+                  <option value="leste">Zona Leste</option>
+                </select>
+              </div>
+
+              <div id="bairrosContainer" style="display: none;">
+                <label for="bairro">Escolha o Bairro que você deseja se voluntariar:</label>
+                <select id="bairro" name="bairro">
+                  <option value="">Selecione um Bairro</option>
+                </select>
+              </div>
+
+              <!-- Seletor de Tipo de Voluntariado -->
+              <div class="voluntarios">
+                <label for="voluntariar">Para o que você deseja se voluntariar?</label>
+                <select name="voluntariar" id="voluntariar">
+                  <option value="">Selecione um Campo</option>
+                  <option value="recebimento">Recebimento ou distribuição de roupas</option>
+                  <option value="resgate">Resgate de pessoas ou animais</option>
+                  <option value="centroDeInformacoes">Trabalhar no centro de informações</option>
+                  <option value="NEPC">Não especificar</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </fieldset>
+
+
+        <!-- <h5>Escolha o local que você deseja se voluntariar:</h5>
+            <input type="checkbox" name="Local" id="checkbox-01">
+            <label for="checkbox-01">Local</label>
+            <input type="checkbox" name="Local02" id="checkbox-02">
+            <label for="checkbox-02">Local-02</label>
+            <input type="checkbox" name="Local02" id="checkbox-03">
+            <label for="checkbox-03">Local-03</label> -->
+        </div>
+        </fieldset>
+
         <div class="button-form">
           <button>Cadastrar</button>
         </div>
@@ -53,10 +103,12 @@
   </main>
   <footer>
     <div class="footer-container">
-        <p>Ajude o povo do Rio Grande do Sul</p>
-        <p><a href="./contato.html">Nossos Contatos</a></p>
+      <p>Ajude o povo do Rio Grande do Sul</p>
+      <p><a href="./contato.html">Nossos Contatos</a></p>
     </div>
-</footer>
+  </footer>
 </body>
+
+<script src="./volubtario.js"> </script>
 
 </html>

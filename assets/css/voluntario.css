@@ -31,6 +31,19 @@ fieldset:nth-child(2) {
   padding-top: 10px;
   gap: 10px;
 }
+/*Para escolher o bairro*/
+fieldset:nth-child(3) {
+  margin-top: 10px;
+  border: 2px solid #213830;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+/*Para escolher o bairro legenda*/
+fieldset:nth-child(3) legend {
+  color: black;
+  padding: 0 0.5rem;
+}
+
 .container input {
   margin-right: 100px;
   width: 100%;
@@ -44,6 +57,21 @@ fieldset:nth-child(2) {
 }
 .container input::placeholder {
   color: #7a8a97;
+}
+
+select {
+  padding: 0.1rem;
+  cursor: pointer;
+  background-color: #e0fff5;
+  color: #331f19;
+  border-radius: 5px;
+  border: 2px solid #213830;
+  outline: none;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .button-form {
