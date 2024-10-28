@@ -13,6 +13,11 @@
 3. **"Faça doações"**: Página protótipo que é composta por um mapa contendo localizações de agências de correios e pontos de coleta para doações.
 4. **"Contato"**: Página que abrange os supostos contatos da equipe **AjudaRS**.
 
+### Tecnologias usadas
+1. HTML
+2. CSS
+3. JavaScript
+
 ## Autores
 1. Mika Marques: [Clique aqui para acessar o perfil](https://github.com/Akimkj)
 2. Breno Augusto: [Clique aqui para acessar o perfil](https://github.com/brenoaug)
